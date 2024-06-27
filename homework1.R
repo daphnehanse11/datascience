@@ -77,7 +77,7 @@ bar_plot <- ggplot(data = teachers_evalCat2, mapping = aes(x = diffcat, fill = e
        y = "Proportion of Evaluations", 
        fill = "Evaluation Category") +
   scale_fill_manual(values = c("Low" = "red", "Average" = "yellow", "High" = "green")) +
-  theme_minimal() 
+apatheme
 
 print(bar_plot)
 
